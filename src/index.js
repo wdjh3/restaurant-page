@@ -1,3 +1,5 @@
-import { loadPage } from "./load-page.js";
+import { loadHomePage } from "./home-page.js";
+import { connectButtons } from "./connect-buttons.js";
 
-loadPage();
+loadHomePage();
+connectButtons();
